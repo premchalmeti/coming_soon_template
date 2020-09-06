@@ -1,4 +1,4 @@
-# coming_soon_template
+# Coming Soon Template
 Coming soon web site template
 
 ## Desktop View
