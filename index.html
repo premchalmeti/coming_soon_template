@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
   <head>
+    <title>Prem Chalmeti | Web Engineer</title>
+    <link rel="shortcut icon" type="image/jpg" href="./icons/pc_official.png" />
+
+    <!-- seo tags here -->
+    <!-- refer https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo for tags -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <meta
+      name="description"
+      content="Hi, I'm a Full-stack Engineer based in Pune, India. I make complex tasks simple & build awesome tools."
+    />
+    <link rel="canonical" href="http://premchalmeti.com/" />
+    <meta name=”robots” content=”index, follow">
+    <meta property="og:locale" content="en_IN" />
+    <meta name="og:title" content="Prem Chalmeti | Web Engineer" />
+    <meta name="og:type" content="website" />
+    <meta
+      name="og:description"
+      content="Hi, I'm a Full-stack Engineer based in Pune, India. I make complex tasks simple & build awesome tools."
+    />
+    <meta name="og:url" content="https://premchalmeti.com/" />
+    <meta
+      name="og:image"
+      content="http://premchalmeti.com/background/development-dark-simple.svg"
+    />
+    <!-- seo tag ends here -->
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -20,102 +45,133 @@
       href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
       rel="stylesheet"
     />
-    <title>Prem Chalmeti | Web Engineer</title>
+
     <style>
-      html,
-      body {
-        height: 100%;
-      }
       body {
         font-family: "Abel", sans-serif;
       }
       .code-font {
-        font-family: "Press Start 2P", cursive;
+        position: relative;
+        color: darkblue;
+        font-size: 2.5rem;
       }
       .main-text {
         font-size: 4.5rem;
         color: #53538a;
       }
+      .code-font::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: inline-block;
+        background-color: #606060;
+        vertical-align: top;
+        width: 5px;
+        height: 35px;
+        -webkit-animation: blink 1s step-end infinite;
+        animation: blink 1s step-end infinite;
+      }
+      @-webkit-keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
     </style>
   </head>
-  <body>
-    <div id='main-container' class="d-flex flex-column justify-content-around h-100">
+  <body class="h-100">
+    <div class="container h-100">
+      <div class="d-flex flex-column justify-content-around h-100">
+        <h3 class="text-center h1">
+          <code class="code-font">&gt; Hello, World!</code>
+        </h3>
 
-      <div class="d-flex flex-row justify-content-center text-center">
-        <h3 class="code-font mt-5">Hello, World!</h3>
-      </div>
-
-      <div class="row">
-        <div class="col d-none d-sm-block d-xs-block">
-          <img
-            id="background-img"
-            src="./background/development-dark-simple.svg"
-            alt="Under Construction Image"
-            width="90%"
-            height="100%"
-          />
-        </div>
-        <div
-          class="col text-md-left text-center"
-        >
-          <div class="pt-5 mt-5">
-            <div class="text-uppercase">
-              <h1 class="main-text">Coming</h1>
-              <h1 class="main-text">Soon...</h1>
+        <div class="row">
+          <div class="col d-none d-sm-block d-xs-block">
+            <img
+              id="background-img"
+              src="./background/development-dark-simple.svg"
+              alt="Under Construction Image"
+              width="100%"
+              class="img-responsive"
+              height="100%"
+            />
+          </div>
+          <div class="col text-md-left text-center">
+            <div class="pt-5 mt-5">
+              <div class="text-uppercase">
+                <h1 class="main-text">Coming</h1>
+                <h1 class="main-text">Soon...</h1>
+              </div>
+              <h3 class="text-muted">We will be celebrating the Launch of</h3>
+              <h3 class="text-muted">our new site very soon!</h3>
             </div>
-            <h3>We will be celebrating the Launch of</h3>
-            <h3>our new site very soon!</h3>
           </div>
         </div>
-      </div>
 
-      <div
-        class="d-flex flex-row justify-content-center mb-5"
-      >
-        <a
-          target="_blank"
-          referrerpolicy="no-referrer"
-          href="https://www.codewars.com/users/premkumar30"
-        >
-          <img src="./icons/c.jpg" alt="Codewars" class="mx-2" />
-        </a>
-        <a
-          target="_blank"
-          referrerpolicy="no-referrer"
-          href="https://www.github.com/premkumar30"
-        >
-          <img src="./icons/g.png" alt="Github" class="mx-2" />
-        </a>
-        <a
-          target="_blank"
-          referrerpolicy="no-referrer"
-          href="https://www.hackerrank.com/prem_chalmeti"
-        >
-          <img src="./icons/h.jpg" alt="Hackerrank" class="mx-2" />
-        </a>
-        <a
-          target="_blank"
-          referrerpolicy="no-referrer"
-          href="https://www.instagram.com/premchalmeti/"
-        >
-          <img src="./icons/i.png" alt="Instagram" class="mx-2" />
-        </a>
-        <a
-          target="_blank"
-          referrerpolicy="no-referrer"
-          href="https://www.linkedin.com/in/premkumarchalmeti/"
-        >
-          <img src="./icons/l.png" alt="LinkedIn" class="mx-2" />
-        </a>
-        <a
-          target="_blank"
-          referrerpolicy="no-referrer"
-          href="https://stackoverflow.com/users/7477462/premkumarchalmeti"
-        >
-          <img src="./icons/s.png" alt="Stackoverflow" class="mx-2" />
-        </a>
+        <div class="row justify-content-center">
+          <a
+            target="_blank"
+            referrerpolicy="no-referrer"
+            href="https://www.codewars.com/users/premkumar30"
+          >
+            <img src="./icons/c.jpg" alt="Codewars" class="mx-2" />
+          </a>
+          <a
+            target="_blank"
+            referrerpolicy="no-referrer"
+            href="https://www.github.com/premkumar30"
+          >
+            <img src="./icons/g.png" alt="Github" class="mx-2" />
+          </a>
+          <a
+            target="_blank"
+            referrerpolicy="no-referrer"
+            href="https://www.hackerrank.com/prem_chalmeti"
+          >
+            <img src="./icons/h.jpg" alt="HackerRank" class="mx-2" />
+          </a>
+          <a
+            target="_blank"
+            referrerpolicy="no-referrer"
+            href="https://www.instagram.com/premchalmeti/"
+          >
+            <img src="./icons/i.png" alt="Instagram" class="mx-2" />
+          </a>
+          <a
+            target="_blank"
+            referrerpolicy="no-referrer"
+            href="https://www.linkedin.com/in/premkumarchalmeti/"
+          >
+            <img src="./icons/l.png" alt="LinkedIn" class="mx-2" />
+          </a>
+          <a
+            target="_blank"
+            referrerpolicy="no-referrer"
+            href="https://stackoverflow.com/users/7477462/premkumarchalmeti"
+          >
+            <img src="./icons/s.png" alt="Stackoverflow" class="mx-2" />
+          </a>
+        </div>
       </div>
     </div>
-    
   </body>
 </html>
